@@ -1,3 +1,2 @@
-# SWG-Crafter
-Crafting Program for Star Wars Galaxies
-#Hey Uncle Leonard
+# SWG-Crafter Hey Uncle Leonard
+Crafting Program for Star Wars Galaxies, Hello NE Ohio
