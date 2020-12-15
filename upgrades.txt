@@ -1,0 +1,12 @@
+0) Move Layout functions out of craft.py, and into layout.py for object
+	oriented sake
+
+1) Save Multiple Layouts
+	create a textbook to input file name
+		append distinct filename, to use when loading
+		in future version run necesarry checks and error handling
+
+2) Load Multiple Layouts
+	search current directory for layout extension
+	draw/place a dropdown list populated with previously saved layouts
+	draw and place a load button to confirm selected layout before load
