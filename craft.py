@@ -6,6 +6,7 @@ def click():
     pyautogui.mouseUp()
 
 def LoadResource(coord):
+    #add check for blank gui
     pyautogui.moveTo(coord[0], coord[1])
     time.sleep(d)
     pyautogui.mouseDown()
@@ -14,7 +15,7 @@ def LoadResource(coord):
     pyautogui.mouseUp()
 
 def NextStage(coord):
-    if coord[0] or coord[1] is not '':
+    if coord[0] or coord[1] is not '': #check if parameter from GUI is blank
         pyautogui.moveTo(coord[0], coord[1])
         time.sleep(d)
         click()
